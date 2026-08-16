@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# Build output.
+# DangerousDave2.app is fully reproducible from source with ./mac/build.sh,
+# so the bundle (and its ~600K binary) stays out of history.
+DangerousDave2.app/
+
+# Intermediates created during a build; build.sh removes these on success,
+# but they linger if a build is interrupted.
+mac/.build/
+*.iconset/
+*.icns
