@@ -10,6 +10,8 @@ kingdom. Dave straps the red cap back on to get them home.
 and tile is pixel art drawn to a Canvas at runtime, and every sound is
 synthesised with the Web Audio API. The whole game is one `index.html`.
 
+![Title screen](docs/screenshots/title.png)
+
 ---
 
 ## Play it
@@ -20,7 +22,14 @@ synthesised with the Web Audio API. The whole game is one `index.html`.
 open index.html
 ```
 
-**As a native macOS app** — see [Building the macOS app](#building-the-macos-app).
+**On macOS** — grab the app from the
+[latest release](https://github.com/abhijith-satheesh-rao/dangerous-dave-2/releases/latest),
+unzip it and double-click.
+
+> The bundle is **ad-hoc signed**, so on a machine that didn't build it macOS
+> will refuse to open it on the first try. Right-click the app and choose
+> **Open**, then confirm — you only need to do this once. Or build it yourself,
+> see [Building the macOS app](#building-the-macos-app).
 
 ### Controls
 
@@ -63,6 +72,13 @@ platform to break the fall.
 
 Dr. Dark paces his hall throwing dark orbs and must be jumped on three times. He
 drops the tenth relic when he falls.
+
+| | |
+| :---: | :---: |
+| ![Museum Rooftops](docs/screenshots/level-01.png) | ![Frozen Caverns](docs/screenshots/level-04.png) |
+| **1 — Museum Rooftops.** Hovering security drones. | **4 — Frozen Caverns.** Polar bears and slippery ice. |
+| ![Volcano Base](docs/screenshots/level-06.png) | ![Final Showdown](docs/screenshots/level-10.png) |
+| **6 — Volcano Base.** Lava pits and rising fireballs. | **10 — Final Showdown.** Dr. Dark himself. |
 
 ---
 

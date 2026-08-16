@@ -6,6 +6,10 @@
 # so the bundle (and its ~600K binary) stays out of history.
 DangerousDave2.app/
 
+# Release package, produced by `ditto -c -k --keepParent` and uploaded as a
+# GitHub release asset rather than committed.
+DangerousDave2.zip
+
 # Intermediates created during a build; build.sh removes these on success,
 # but they linger if a build is interrupted.
 mac/.build/
